@@ -131,9 +131,9 @@ nav ul li:first-of-type {
 button {
 	background-color: #FFF;
 	border: 1px solid #000;
-	padding: 10px 50px;
+	padding: 15px 75px;
 	margin-top: 10px;
-	margin-left: 185px;
+	margin-left: 15%;
 }
 
 button:hover {
@@ -190,4 +190,65 @@ button:hover {
 
 footer {
 	text-align: center;
+}
+
+/*====MEDIA QUERIES====*/
+
+@media screen and (max-width: 767px) {		
+	#top-content section {
+		width: 100%;
+		display: inline-block;
+	}
+
+	#top-content section:last-of-type {
+		margin-top: 4%;
+		margin-left: 0;
+	}
+
+	.header h1 {
+		width: 40%;
+		font-size: 3em;
+	}
+
+	button {
+		margin-left: 4%;
+	}
+
+	nav{
+		margin-top: 10px;
+	}
+
+	.logo {
+		position: relative;
+		margin-left: 33%;
+	}
+
+	nav ul {
+		margin-left: 15%;
+	}
+
+	nav ul li {
+		margin-left: 15px;
+	}
+
+	#navigation {
+		height: 100px;
+	}
+
+	.header img {
+		width: 250px;
+		height: 250px;
+		margin-top: 10%;
+	}
+
+	#bottom-content section {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 3%;
+	}
+	
+	#bottom-content section:first-of-type {
+		margin-top: 0;
+	}
+
 }
