@@ -252,3 +252,29 @@ footer {
 	}
 
 }
+
+@media screen and (max-width: 480px) {
+	.logo {
+		margin-left: 20%;
+	}
+	nav ul {
+		margin-left: 0;
+	}
+	nav ul li {
+		margin-left: 1px;
+		font-size: 0.9em;
+	}
+	.header h1 {
+		margin-top: 90%;
+		width: 95%;
+		font-size: 3em;
+	}
+
+	button {
+		margin-left: 12%;
+		padding: 17px 87px;
+	}
+	.header img {
+		margin-right: 13%;
+	}
+}
