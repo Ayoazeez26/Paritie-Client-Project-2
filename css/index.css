@@ -261,7 +261,8 @@ footer {
 		margin-left: 0;
 	}
 	nav ul li {
-		margin-left: 1px;
+		margin-left: 45px;
+		margin-top: 5px;
 		font-size: 0.9em;
 	}
 	.header h1 {
@@ -276,5 +277,9 @@ footer {
 	}
 	.header img {
 		margin-right: 13%;
+	}
+
+	#navigation {
+		height: 111px;
 	}
 }
