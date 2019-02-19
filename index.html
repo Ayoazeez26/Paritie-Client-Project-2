@@ -17,6 +17,16 @@
   <body>
 
     <div id="container">
+        <div id="mySidebar" class="sidebar"> 
+            <a href="index.html">Home</a>
+            <a href="">Services</a>
+            <a href="">Product</a>
+            <a href="">Vision</a>
+            <a href="">Features</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+
+          </div>
       <div id="navigation">
         <nav>
           <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
@@ -28,6 +38,8 @@
             <li>About</li>
             <li>Contact</li>
           </ul>
+          <img id="openbutton" class="openbtn" onclick="openNav()" src="img/hamburger.png" alt="">
+          <a id="closebutton" href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/hamburger-close.png" alt=""></a>          
         </nav>
       </div>
       <div class="header">
@@ -79,5 +91,23 @@
       </div>
       <footer>Copyright Great Idea! 2018</footer> 
     </div>
+
+    <script>
+
+      function openNav() {
+          document.getElementById("mySidebar").style.height = "100%";
+          document.getElementById("mySidebar").style.paddingTop = "85px";
+          document.getElementById("openbutton").style.display = "none";         
+          document.getElementById("closebutton").style.display = "inline";
+      }
+
+      function closeNav() {
+          document.getElementById("mySidebar").style.height = "0";
+          document.getElementById("mySidebar").style.paddingTop = "0";          
+          document.getElementById("openbutton").style.display = "inline";          
+          document.getElementById("closebutton").style.display = "none";
+      }
+
+    </script>
   </body>
 </html>
